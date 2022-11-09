@@ -4,12 +4,12 @@ binary = input("Binary: ")
 """
 Converts a binary number to a hexadecimal number
 
-Takes in a binary number
+Takes in a binary number and the number of digits of the resultant hex number
 
 Returns a tuple of the result 
 and whether this result matches the result of the built in Python function
 """
-def binaryToHex(binary):
+def binaryToHex(binary, nDigits):
     # convert binary to denary
     total = 0
 
